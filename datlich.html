@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/ynghia.css">
+    <link rel = "stylesheet" href = " https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>nguyenxuannhieu ps16310 asm</title>
+</head>
+<body>
+    <div class="backgroud">
+        <div class="kechia">
+            <div class="kechi1">1</div>
+            <div class="kechi2">2</div>
+            <div class="kechi3">3</div>
+        </div>
+        <div class="kechib">
+            <div class="kechi4">1</div>
+            <div class="kechi5">2</div>
+            <div class="kechi6">3</div>
+        </div>
+        <div class="gif">
+            <img src="./images/gif.gif">
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png"></a>
+            </div>
+            <div class="menu">
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="index.html">GIỚI THIỆU</a></li>
+                <li><a href="ynghia.html">Ý NGHĨA HÌNH XĂM</a></li>
+                <li><a href="datlich.html">LIÊN HỆ</a></li>
+                <li></i></li>
+            </div>
+            <i class ="fa fa-bars"></i>
+            <script>
+                $(document).ready(function(){
+                    $(window).scroll(function(){
+                        if($(this).scrollTop()){
+                            $('header').addClass('header1');
+                        } else{
+                            $('header').removeClass('header1');
+                        }
+                    });
+                });
+            </script>
+        </header>
+        <footer class="footer">
+            <form class="datlichngay">
+                <div class="datlich">đặt lịch ngay</div>
+                <div class="xyz">YOUR NAME</div>
+                <input type="text" class="monem" required>
+                <div class="xyz">YOUR EMAIL</div>
+                <input type="email" class="monem" required>
+                <div class="xyz">BOOKING DAY</div>
+                <input type="month" class="monem" required>
+                <div class="xyz">YOUR PHONE</div>
+                <input type="number" class="monem" required>
+                <input type="submit" class="xemthem1" value="ĐẶT NGAY">
+            </form>
+        </footer>
+        <footer class="text">
+            <div class="text1">
+                <img src="./images/logo1.png">
+                <p>The Tattoo Club được thành lập từ năm 2009, 
+                với hơn 10 năm kinh nghiệm trong ngành xăm nghệ thuật, 
+                chúng tôi tin tưởng mang đến cho bạn những hình xăm chất
+                lượng nhất.</p>
+            </div>
+            <div class="text2">
+                <b>Thông tin liên hệ:</b>
+                <p>Email: nguyennhieu1507.2k2@gmail.com</p>
+                <p>Sdt: 08888.000.32</p>
+                <p>FB: fb.com/il.nguyennhieu.immortaI</p> <br>
+                <p class="abczx">Hân Hạnh Được Phục Vụ Quý Khách</p>
+            </div>
+        </footer>
+        <footer class="banquyen">
+            <p>@nguyennhieu1507.2k2@gmail.com</p>
+        </footer>
+    </div>
+</body>
